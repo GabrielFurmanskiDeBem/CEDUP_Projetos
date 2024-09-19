@@ -1,6 +1,13 @@
 import java.util.Scanner;
 
 public class ProjetoCardapio153 {
+
+    /*
+    Grupo: Cedupinhos
+    Nomes: Arthur Cândido da Silva, Gabriel Furmanski de Bem, Heloyse Lima Oliveira, Julia Lack Oliveira, Yuri Bernardino da Rosa
+    Turma: 1-53
+    */
+    
     public static void main(String[] args) throws InterruptedException {
         Scanner sc = new Scanner(System.in);
         int escolhaAbrirCardapio, escolhaMenu, escolherSalgado, escolherDoce, escolherBebida;
