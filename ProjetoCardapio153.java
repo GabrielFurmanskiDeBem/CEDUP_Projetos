@@ -6,7 +6,7 @@ public class ProjetoCardapio153 {
         int escolhaAbrirCardapio, escolhaMenu, escolherSalgado, escolherDoce, escolherBebida;
         float valorTotal = 0;
 
-        System.out.println("Olá! Bem-vindo(a) ao restaurante [], qual será o seu pedido?");
+        System.out.println("Olá! Bem-vindo(a) ao restaurante Cedupinhos, qual será o seu pedido?");
         System.out.println("Abrir cardápio?");
         Thread.sleep(500);
         System.out.println("[1] Sim");
@@ -61,33 +61,48 @@ public class ProjetoCardapio153 {
 
                                 switch(escolherSalgado){
                                     case 1:
-                                        valorTotal+=5;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida1 = sc.nextInt();
+                                        double precoPorQuantidade1 = quantidadeEscolhida1*5;
+                                        valorTotal+=(precoPorQuantidade1);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu uma coxinha, R$5,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida1+" coxinha(s), R$%.2f%n", precoPorQuantidade1 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 2:
-                                        valorTotal+=9.5f;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida2 = sc.nextInt();
+                                        double precoPorQuantidade2 = quantidadeEscolhida2*9.5;
+                                        valorTotal+=(precoPorQuantidade2);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu uma esfirra, R$9,50 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida2+" esfirra(s), R$%.2f%n", precoPorQuantidade2 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 3:
-                                        valorTotal+=7;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida3 = sc.nextInt();
+                                        double precoPorQuantidade3 = quantidadeEscolhida3*7;
+                                        valorTotal+=(precoPorQuantidade3);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um pastel, R$7,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida3+" pastel(éis), R$%.2f%n", precoPorQuantidade3 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 4:
-                                        valorTotal+=7;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida4 = sc.nextInt();
+                                        double precoPorQuantidade4 = quantidadeEscolhida4*7;
+                                        valorTotal+=(precoPorQuantidade4);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um quibe, R$7,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida4+" quibe(s), R$%.2f%n", precoPorQuantidade4 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 5:
-                                        valorTotal+=6;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida5 = sc.nextInt();
+                                        double precoPorQuantidade5 = quantidadeEscolhida5*6;
+                                        valorTotal+=(precoPorQuantidade5);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um pão de queijo, R$6,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida5+" pão(s) queijo, R$%.2f%n", precoPorQuantidade5 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 6:
@@ -123,33 +138,48 @@ public class ProjetoCardapio153 {
 
                                 switch(escolherDoce){
                                     case 1:
-                                        valorTotal+=10;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida1 = sc.nextInt();
+                                        double precoPorQuantidade1 = quantidadeEscolhida1*10;
+                                        valorTotal+=(precoPorQuantidade1);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um sagu, R$10,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida1+" sagu(s), R$%.2f%n", precoPorQuantidade1 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 2:
-                                        valorTotal+=18.5f;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida2 = sc.nextInt();
+                                        double precoPorQuantidade2 = quantidadeEscolhida2*18.5;
+                                        valorTotal+=(precoPorQuantidade2);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um pudim, R$18,50 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida2+" pudim(ns), R$%.2f%n", precoPorQuantidade2 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 3:
-                                        valorTotal+=85;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida3 = sc.nextInt();
+                                        double precoPorQuantidade3 = quantidadeEscolhida3*85;
+                                        valorTotal+=(precoPorQuantidade3);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu uma torta, R$85,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida3+" torta(s), R$%.2f%n", precoPorQuantidade3 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 4:
-                                        valorTotal+=24;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida4 = sc.nextInt();
+                                        double precoPorQuantidade4 = quantidadeEscolhida4*24;
+                                        valorTotal+=(precoPorQuantidade4);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um açaí personalizado, R$24,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida4+" açaí(s), R$%.2f%n", precoPorQuantidade4 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 5:
-                                        valorTotal+=15;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida5 = sc.nextInt();
+                                        double precoPorQuantidade5 = quantidadeEscolhida5*15;
+                                        valorTotal+=(precoPorQuantidade5);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um brownie, R$15,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida5+" brownie(s), R$%.2f%n", precoPorQuantidade5 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 6:
@@ -185,33 +215,48 @@ public class ProjetoCardapio153 {
 
                                 switch(escolherBebida){
                                     case 1:
-                                        valorTotal+=5;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida1 = sc.nextInt();
+                                        double precoPorQuantidade1 = quantidadeEscolhida1*5;
+                                        valorTotal+=(precoPorQuantidade1);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um suco, R$5,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida1+" suco(s), R$%.2f%n", precoPorQuantidade1 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 2:
-                                        valorTotal+=13;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida2 = sc.nextInt();
+                                        double precoPorQuantidade2 = quantidadeEscolhida2*13;
+                                        valorTotal+=(precoPorQuantidade2);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um refrigerante, R$13,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida2+" refrigerante(s), R$%.2f%n", precoPorQuantidade2 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 3:
-                                        valorTotal+=4;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida3 = sc.nextInt();
+                                        double precoPorQuantidade3 = quantidadeEscolhida3*4;
+                                        valorTotal+=(precoPorQuantidade3);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um café, R$4,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida3+" copo(s) de café, R$%.2f%n", precoPorQuantidade3 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 4:
-                                        valorTotal+=50;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida4 = sc.nextInt();
+                                        double precoPorQuantidade4 = quantidadeEscolhida4*50;
+                                        valorTotal+=(precoPorQuantidade4);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um vinho, R$50,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida4+" taça(s) de vinho, R$%.2f%n", precoPorQuantidade4 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 5:
-                                        valorTotal+=8;
+                                        System.out.print("Qual a quantidade desejada? R: ");
+                                        int quantidadeEscolhida5 = sc.nextInt();
+                                        double precoPorQuantidade5 = quantidadeEscolhida5*18.5;
+                                        valorTotal+=(precoPorQuantidade5);
                                         System.out.println("-----------------------------");
-                                        System.out.println("Você pediu um caldo de cana, R$8,00 somados na conta.");
+                                        System.out.printf("Você pediu "+quantidadeEscolhida5+" caldo(s) de cana, R$%.2f%n", precoPorQuantidade5 ," somados na conta.");
                                         System.out.println("-----------------------------");
                                         break;
                                     case 6:
@@ -234,7 +279,7 @@ public class ProjetoCardapio153 {
                 }while(escolhaMenu!=4);
 
                 Thread.sleep(1000);
-                System.out.printf("O total deu R$"+valorTotal+".");
+                System.out.printf("O total deu R$%.2f%n"+valorTotal+".");
                 break;
             case 2:
                 System.out.println("Você foi embora.");
