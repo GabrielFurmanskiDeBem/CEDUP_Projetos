@@ -286,7 +286,7 @@ public class ProjetoCardapio153 {
                 }while(escolhaMenu!=4);
 
                 Thread.sleep(1000);
-                System.out.printf("O total deu R$%.2f%n"+valorTotal+".");
+                System.out.printf("O total deu R$%.2f%n",valorTotal,".");
                 break;
             case 2:
                 System.out.println("Você foi embora.");
